@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
+	"log-collector/logging"
 	"os"
 	"path/filepath"
-	"pdx-performance-validator/logging"
 	"strings"
 	"time"
 )
