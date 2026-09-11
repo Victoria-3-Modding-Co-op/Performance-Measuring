@@ -1,0 +1,17 @@
+﻿on_monthly_pulse = {
+    on_actions = {
+        perf_on_yearly_pulse
+    }
+}
+
+on_game_started = {
+    on_actions = {
+        perf_on_yearly_pulse
+    }
+}
+
+perf_on_yearly_pulse = {
+    effect = {
+        error_log = "perf_date: [TimeKeeper.GetCurrentDate.Format('d.m.y')]"
+    }
+}

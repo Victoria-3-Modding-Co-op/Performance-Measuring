@@ -1,0 +1,11 @@
+{
+  "name" : "Performance Logger",
+  "id" : "com.github.kaiser-chris.performance",
+  "version" : "1.0.0",
+  "game_id" : "victoria3",
+  "picture" : "thumbnail.png",
+  "supported_game_version" : "*",
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}
