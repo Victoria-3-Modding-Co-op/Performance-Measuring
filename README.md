@@ -1,6 +1,15 @@
 # Performance Measuring
 Simple performance measuring tool.
 
+It produces results as a simple csv:
+```
+Real Time,Game Date
+07:52:03,1.1.1836
+07:52:38,1.2.1836
+07:52:46,1.3.1836
+07:52:55,1.4.1836
+```
+
 ## Setup
 - Install the logging mod found in the [log-producer](log-producer) directory and add it to your playset
 - Copy [log-collector.exe](log-collector/log-collector.exe) (or [log-collector](log-collector/log-collector) on linux) into your Victoria 3 logs directory (`<Documents>/Paradox Interactive/Victoria 3/logs/`)
